@@ -1,0 +1,65 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+header{
+    background-color: rgba(112, 55, 67, 0.233);
+    padding: 20px;
+
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    padding: 5px;
+    border-radius: 5px;
+
+}
+nav ul li a:hover{
+    background-color: cyan;
+    color: chocolate;
+    
+    
+    
+}
+
+#hero{
+    height: 70vh;
+    background: url('../images/11-09-54-151_640.jpg') no-repeat center/cover ;
+}
+#hero-content{
+    text-align: center;
+    font-size: 32x;
+    color: lightseagreen;
+}
+#features{
+    max-width: 600px ;
+    margin: 10px auto;
+
+
+}
+h2{
+    color: cadetblue;
+
+}
+h3{
+    color: peru;
+}
+.container{
+    display: flex;
+    
+}
+.feature{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px lightgrey;
+    margin:10px;
+}
+footer{
+    background-color: fuchsia;
+    padding: 20px;
+}
