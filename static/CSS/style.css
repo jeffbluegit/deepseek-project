@@ -7,8 +7,8 @@ header{
     padding: 20px;
 
 }
-#pigeon{
-    background-color: darkblue;
+.pigeon{
+    background-color: rgba(0, 0, 139, 0.582);
     color: violet;
 }
 nav ul{
