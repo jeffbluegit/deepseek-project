@@ -7,6 +7,10 @@ header{
     padding: 20px;
 
 }
+#pigeon{
+    background-color: darkblue;
+    color: violet;
+}
 nav ul{
     list-style-type: none;
     text-align: center;
@@ -42,6 +46,10 @@ nav ul li a:hover{
     margin: 10px auto;
 
 
+}
+#give{
+    height: 70vh;
+    background: url(../images/red\ roses.jfif) no-repeat center/cover;
 }
 h2{
     color: cadetblue;
