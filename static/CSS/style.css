@@ -4,7 +4,7 @@ body{
     font-weight: 100;
 }
 header{
-    background-color: rgba(59, 112, 226, 0.233);
+    background-color: rgba(71, 80, 100, 0.233);
     padding: 20px;
     font-family: Mo;
 
@@ -32,6 +32,16 @@ nav ul li a:hover{
     
     
 }
+#container{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    border-radius: 9px;
+    
+}
+#services{
+    background-color: rgba(131, 129, 129, 0.664);
+}
 #partment{
     color:  cream (#FFF8E1);
     font-size: 20px;
@@ -52,6 +62,10 @@ nav ul li a:hover{
     margin: 10px auto;
 
 
+}
+#deliver{
+    margin: 20px 10px;
+    padding: 20px 20px;
 }
 #give{
     height: 70vh;
@@ -75,6 +89,17 @@ h3{
     border-radius: 5px;
     box-shadow: 2px 2px 5px lightgrey;
     margin:10px;
+}
+.deliver{
+    font-weight: 90px;
+}
+form{
+    width: 40%;  
+    margin: 10px auto ;
+    background-color: coral;
+    padding: 20px;
+    border: 2px solid powderblue;
+    border-radius: 9px;
 }
 footer{
     background-color: fuchsia;
